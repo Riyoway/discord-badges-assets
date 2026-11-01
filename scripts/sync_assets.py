@@ -6,6 +6,11 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+STATUS_CHECKED = "2026-11-02"
+OFFICIAL_BADGES_SOURCE = "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+ACTIVE_DEVELOPER_SOURCE = "https://support-dev.discord.com/hc/en-us/articles/10113997751447-Active-Developer-Badge"
+HYPESQUAD_API_SOURCE = "https://gist.github.com/8ug8ird/2ea887ce56f78c4e31eba4d3a1bfd113"
+
 DATA = r'''profile|Discord Staff||https://discord.com/assets/48d5bdcffe9e7848067c2e187f1ef951.svg
 profile|Partnered Server Owner||https://discord.com/assets/34306011e46e87f8ef25f3415d3b99ca.svg
 profile|HypeSquad Events||https://discord.com/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg
@@ -90,43 +95,123 @@ server-boost|Server Boost 8|18 months|https://discord.com/assets/c6d88d1d12afe03
 server-boost|Server Boost 9|24+ months|https://discord.com/assets/d96ed283b74de75692487b7499fb8d09.svg'''
 
 CATEGORY_TITLES = {
-    'profile': 'Profile, Legacy & App Badges',
-    'account-age': 'Account Age',
-    'streaming': 'Streaming',
-    'game-time': 'Game Time',
-    'game-variety': 'Game Variety',
-    'gifting': 'Gifting',
-    'nitro': 'Nitro Subscription Tiers',
-    'server-boost': 'Server Boost Tiers',
+    "profile": "Profile, Legacy & App Badges",
+    "account-age": "Account Age",
+    "streaming": "Streaming",
+    "game-time": "Game Time",
+    "game-variety": "Game Variety",
+    "gifting": "Gifting",
+    "nitro": "Nitro Subscription Tiers",
+    "server-boost": "Server Boost Tiers",
+}
+
+# Discord's current support page explicitly places these badges in its Legacy Badges section.
+OFFICIAL_LEGACY = {
+    "partnered-server-owner",
+    "hypesquad-events",
+    "hypesquad-bravery",
+    "hypesquad-brilliance",
+    "hypesquad-balance",
+    "early-supporter",
+    "moderator-programs-alumni",
+    "legacy-username",
+}
+
+# Historical badges that are no longer issued but are not listed in Discord's current Legacy section.
+HISTORICAL_LEGACY = {
+    "early-verified-bot-developer",
+}
+
+HYPESQUAD_HOUSES = {
+    "hypesquad-bravery",
+    "hypesquad-brilliance",
+    "hypesquad-balance",
 }
 
 
 def slugify(value: str) -> str:
-    return re.sub(r'[^a-z0-9]+', '-', value.lower()).strip('-')
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
+def badge_status(slug: str) -> dict:
+    meta = {
+        "legacy": False,
+        "legacy_basis": None,
+        "status": "current",
+        "official_obtainable": True,
+        "unofficial_api_obtainable": False,
+        "obtainability": "official",
+        "status_checked": STATUS_CHECKED,
+        "status_sources": [OFFICIAL_BADGES_SOURCE],
+        "notes": None,
+    }
+
+    if slug in OFFICIAL_LEGACY:
+        meta.update({
+            "legacy": True,
+            "legacy_basis": "official",
+            "status": "legacy",
+            "official_obtainable": False,
+            "obtainability": "unobtainable",
+        })
+
+    if slug in HISTORICAL_LEGACY:
+        meta.update({
+            "legacy": True,
+            "legacy_basis": "historical",
+            "status": "legacy",
+            "official_obtainable": False,
+            "obtainability": "unobtainable",
+            "notes": "No longer issued; treated as historical/legacy, but not listed in Discord's current Legacy Badges section.",
+        })
+
+    if slug in HYPESQUAD_HOUSES:
+        meta.update({
+            "unofficial_api_obtainable": True,
+            "obtainability": "unofficial-api-only",
+            "status_sources": [OFFICIAL_BADGES_SOURCE, HYPESQUAD_API_SOURCE],
+            "notes": "Discord removed the official HypeSquad quiz. The house badge can still be assigned through the Discord API endpoint used by the former client flow; this is not an official acquisition method. Community verification: 2026-10-13.",
+        })
+
+    if slug == "active-developer":
+        meta.update({
+            "legacy": False,
+            "legacy_basis": None,
+            "status": "removed",
+            "official_obtainable": False,
+            "unofficial_api_obtainable": False,
+            "obtainability": "removed",
+            "status_sources": [ACTIVE_DEVELOPER_SOURCE],
+            "notes": "Decommissioned by Discord in December 2025; previously displayed Active Developer badges were removed from profiles.",
+        })
+
+    return meta
 
 
 def parse_badges():
     badges = []
     for line in DATA.splitlines():
-        category, name, milestone, url = line.split('|', 3)
-        ext = url.rsplit('.', 1)[-1].lower()
+        category, name, milestone, url = line.split("|", 3)
+        ext = url.rsplit(".", 1)[-1].lower()
         slug = slugify(name)
-        badges.append({
-            'category': category,
-            'name': name,
-            'slug': slug,
-            'milestone': milestone or None,
-            'format': ext,
-            'cdn_url': url,
-            'asset_path': f'assets/{category}/{slug}.{ext}',
-        })
+        badge = {
+            "category": category,
+            "name": name,
+            "slug": slug,
+            "milestone": milestone or None,
+            "format": ext,
+            "cdn_url": url,
+            "asset_path": f"assets/{category}/{slug}.{ext}",
+        }
+        badge.update(badge_status(slug))
+        badges.append(badge)
     return badges
 
 
 def download(badge):
-    target = ROOT / badge['asset_path']
+    target = ROOT / badge["asset_path"]
     target.parent.mkdir(parents=True, exist_ok=True)
-    req = urllib.request.Request(badge['cdn_url'], headers={'User-Agent': 'discord-badges-assets/1.0'})
+    req = urllib.request.Request(badge["cdn_url"], headers={"User-Agent": "discord-badges-assets/1.1"})
     try:
         with urllib.request.urlopen(req, timeout=20) as response:
             body = response.read()
@@ -136,60 +221,120 @@ def download(badge):
         return None, 0, str(exc)
 
 
+def legacy_label(badge: dict) -> str:
+    if not badge["legacy"]:
+        return "No"
+    if badge["legacy_basis"] == "official":
+        return "Yes (official)"
+    return "Yes (historical)"
+
+
+def obtainability_label(badge: dict) -> str:
+    return {
+        "official": "Official",
+        "unobtainable": "No longer obtainable",
+        "unofficial-api-only": "Unofficial API only",
+        "removed": "Removed",
+    }[badge["obtainability"]]
+
+
 def build_readme(badges, failures):
     lines = [
-        '# Discord Badges Assets — SVG & CDN Archive',
-        '',
-        'A searchable archive of **Discord badges, profile badge assets, official CDN URLs, SVGs and PNGs**. '
-        'Includes Nitro badge tiers, Server Boost badges, Account Age, Streaming, Game Time, Game Variety, Gifting, legacy badges, developer/app badges, and other Discord profile badges.',
-        '',
-        '> Independent community archive. Not affiliated with or endorsed by Discord Inc. Discord names, trademarks, and badge artwork belong to their respective owners.',
-        '',
-        '## Why this repository?',
-        '',
-        '- Direct Discord / Discord CDN asset URLs alongside local mirrors.',
-        '- Searchable names and structured metadata in [`data/badges.json`](data/badges.json).',
-        '- SVG is preferred whenever a known official SVG asset is available; some current badges are only exposed as PNG.',
-        '- A small sync/check script makes CDN breakage easy to detect.',
-        '',
-        '## Coverage',
-        '',
-        '| Category | Count |',
-        '| --- | ---: |',
+        "# Discord Badges Assets — SVG & CDN Archive",
+        "",
+        "A searchable archive of **Discord badges, profile badge assets, official CDN URLs, SVGs and PNGs**. "
+        "Includes Nitro badge tiers, Server Boost badges, Account Age, Streaming, Game Time, Game Variety, Gifting, legacy badges, developer/app badges, and other Discord profile badges.",
+        "",
+        "> Independent community archive. Not affiliated with or endorsed by Discord Inc. Discord names, trademarks, and badge artwork belong to their respective owners.",
+        "",
+        "## Why this repository?",
+        "",
+        "- Direct Discord / Discord CDN asset URLs alongside local mirrors.",
+        "- Searchable names and structured metadata in [`data/badges.json`](data/badges.json).",
+        "- Every badge includes a legacy/status/obtainability classification.",
+        "- SVG is preferred whenever a known official SVG asset is available; some current badges are only exposed as PNG.",
+        "- A small sync/check script makes CDN breakage easy to detect.",
+        "",
+        "## Status definitions",
+        "",
+        "- **Legacy — Yes (official):** listed by Discord in the current Legacy Badges section.",
+        "- **Legacy — Yes (historical):** no longer issued and preserved here as a historical badge, but not listed in Discord's current Legacy section.",
+        "- **Unofficial API only:** not obtainable through Discord's official UI/program, but the former client API route is still reported working.",
+        "- **Removed:** Discord has decommissioned the badge and removed previously displayed instances from profiles.",
+        "",
+        "> **HypeSquad House note:** Bravery, Brilliance and Balance are officially classified as legacy because the quiz is gone. As of October 13, 2026, the former `/hypesquad/online` API flow is still community-verified for all three houses. This is not an official acquisition method.",
+        "",
+        "## Coverage",
+        "",
+        "| Category | Count |",
+        "| --- | ---: |",
     ]
     for category in CATEGORY_TITLES:
-        count = sum(1 for b in badges if b['category'] == category)
-        lines.append(f'| {CATEGORY_TITLES[category]} | {count} |')
-    lines += ['', f'**Total: {len(badges)} badge assets.**', '']
+        count = sum(1 for b in badges if b["category"] == category)
+        lines.append(f"| {CATEGORY_TITLES[category]} | {count} |")
+    lines += ["", f"**Total: {len(badges)} badge assets.**", ""]
 
     for category, title in CATEGORY_TITLES.items():
-        lines += [f'## {title}', '', '| Preview | Badge | Milestone | Format | Discord CDN |', '| --- | --- | --- | --- | --- |']
-        for b in [x for x in badges if x['category'] == category]:
-            milestone = b['milestone'] or '—'
+        lines += [f"## {title}", ""]
+        if category == "profile":
+            lines += [
+                "| Preview | Badge | Legacy | Obtainability | Format | Discord CDN |",
+                "| --- | --- | --- | --- | --- | --- |",
+            ]
+        else:
+            lines += [
+                "| Preview | Badge | Milestone | Legacy | Format | Discord CDN |",
+                "| --- | --- | --- | --- | --- | --- |",
+            ]
+
+        for b in [x for x in badges if x["category"] == category]:
             preview = f'<img src="{b["asset_path"]}" width="40" alt="{b["name"]}">'
-            lines.append(f'| {preview} | **{b["name"]}** | {milestone} | `{b["format"].upper()}` | [Open asset]({b["cdn_url"]}) |')
-        lines.append('')
+            legacy = legacy_label(b)
+            if category == "profile":
+                obtainability = obtainability_label(b)
+                lines.append(
+                    f'| {preview} | **{b["name"]}** | {legacy} | {obtainability} | `{b["format"].upper()}` | [Open asset]({b["cdn_url"]}) |'
+                )
+            else:
+                milestone = b["milestone"] or "—"
+                lines.append(
+                    f'| {preview} | **{b["name"]}** | {milestone} | {legacy} | `{b["format"].upper()}` | [Open asset]({b["cdn_url"]}) |'
+                )
+        lines.append("")
 
     lines += [
-        '## Data format', '',
-        'Every entry in `data/badges.json` includes the category, badge name, optional milestone, original Discord CDN URL, format, and local asset path.', '',
-        '## Sync / validate assets', '',
-        '```bash', 'python scripts/sync_assets.py', '```', '',
-        'The script downloads each upstream asset, updates `data/badges.json`, and regenerates this README. It exits non-zero if any CDN asset fails.', '',
-        '## Sources', '',
-        '- Discord Support — Profile Badges: What Each Badge Means',
-        '- Discord Support — Evolving Nitro Badges',
-        '- Discord Support — Server Boosting FAQ',
-        '- Public Discord badge archives were used to cross-check historical asset hashes and names.', '',
-        '## License & asset rights', '',
-        'The repository code and original metadata are released under the MIT License. **Discord badge artwork and other Discord-owned visual assets are not relicensed by this repository.** See [`NOTICE.md`](NOTICE.md).', '',
+        "## Data format",
+        "",
+        "Every entry in `data/badges.json` includes the category, badge name, optional milestone, original Discord CDN URL, format, local asset path, `legacy`, `legacy_basis`, `status`, official/unofficial obtainability flags, notes, sources, and the date the status was checked.",
+        "",
+        "## Sync / validate assets",
+        "",
+        "```bash",
+        "python scripts/sync_assets.py",
+        "```",
+        "",
+        "The script downloads each upstream asset, updates `data/badges.json`, and regenerates this README. It exits non-zero if any CDN asset fails.",
+        "",
+        "## Sources",
+        "",
+        f"- [Discord Support — Profile Badges: What Each Badge Means]({OFFICIAL_BADGES_SOURCE})",
+        f"- [Discord Developer Support — Active Developer Badge]({ACTIVE_DEVELOPER_SOURCE})",
+        f"- [Community verification — HypeSquad API flow, updated Oct 13 2026]({HYPESQUAD_API_SOURCE})",
+        "- Discord Support — Evolving Nitro Badges",
+        "- Discord Support — Server Boosting FAQ",
+        "- Public Discord badge archives were used to cross-check historical asset hashes and names.",
+        "",
+        "## License & asset rights",
+        "",
+        "The repository code and original metadata are released under the MIT License. **Discord badge artwork and other Discord-owned visual assets are not relicensed by this repository.** See [`NOTICE.md`](NOTICE.md).",
+        "",
     ]
     if failures:
-        lines += ['## Current upstream failures', '']
+        lines += ["## Current upstream failures", ""]
         for name, error in failures:
-            lines.append(f'- `{name}` — {error}')
-        lines.append('')
-    return '\n'.join(lines)
+            lines.append(f"- `{name}` — {error}")
+        lines.append("")
+    return "\n".join(lines)
 
 
 def main():
@@ -197,20 +342,20 @@ def main():
     failures = []
     for badge in badges:
         status, size, error = download(badge)
-        badge['http_status'] = status
-        badge['bytes'] = size
+        badge["http_status"] = status
+        badge["bytes"] = size
         if error:
-            badge['sync_error'] = error
-            failures.append((badge['name'], error))
+            badge["sync_error"] = error
+            failures.append((badge["name"], error))
         print(f"{badge['name']}: {status or 'ERR'} {size} bytes")
 
-    data_dir = ROOT / 'data'
+    data_dir = ROOT / "data"
     data_dir.mkdir(exist_ok=True)
-    (data_dir / 'badges.json').write_text(json.dumps(badges, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
-    (ROOT / 'README.md').write_text(build_readme(badges, failures) + '\n', encoding='utf-8')
+    (data_dir / "badges.json").write_text(json.dumps(badges, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    (ROOT / "README.md").write_text(build_readme(badges, failures) + "\n", encoding="utf-8")
     if failures:
         raise SystemExit(1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

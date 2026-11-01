@@ -7,6 +7,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/48d5bdcffe9e7848067c2e187f1ef951.svg",
     "asset_path": "assets/profile/discord-staff.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 3563
   },
@@ -18,6 +29,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/34306011e46e87f8ef25f3415d3b99ca.svg",
     "asset_path": "assets/profile/partnered-server-owner.svg",
+    "legacy": true,
+    "legacy_basis": "official",
+    "status": "legacy",
+    "official_obtainable": false,
+    "unofficial_api_obtainable": false,
+    "obtainability": "unobtainable",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 928
   },
@@ -29,6 +51,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg",
     "asset_path": "assets/profile/hypesquad-events.svg",
+    "legacy": true,
+    "legacy_basis": "official",
+    "status": "legacy",
+    "official_obtainable": false,
+    "unofficial_api_obtainable": false,
+    "obtainability": "unobtainable",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 2536
   },
@@ -40,6 +73,18 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/efcc751513ec434ea4275ecda4f61136.svg",
     "asset_path": "assets/profile/hypesquad-bravery.svg",
+    "legacy": true,
+    "legacy_basis": "official",
+    "status": "legacy",
+    "official_obtainable": false,
+    "unofficial_api_obtainable": true,
+    "obtainability": "unofficial-api-only",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means",
+      "https://gist.github.com/8ug8ird/2ea887ce56f78c4e31eba4d3a1bfd113"
+    ],
+    "notes": "Discord removed the official HypeSquad quiz. The house badge can still be assigned through the Discord API endpoint used by the former client flow; this is not an official acquisition method. Community verification: 2026-10-13.",
     "http_status": 200,
     "bytes": 898
   },
@@ -51,6 +96,18 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/ec8e92568a7c8f19a052ef42f862ff18.svg",
     "asset_path": "assets/profile/hypesquad-brilliance.svg",
+    "legacy": true,
+    "legacy_basis": "official",
+    "status": "legacy",
+    "official_obtainable": false,
+    "unofficial_api_obtainable": true,
+    "obtainability": "unofficial-api-only",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means",
+      "https://gist.github.com/8ug8ird/2ea887ce56f78c4e31eba4d3a1bfd113"
+    ],
+    "notes": "Discord removed the official HypeSquad quiz. The house badge can still be assigned through the Discord API endpoint used by the former client flow; this is not an official acquisition method. Community verification: 2026-10-13.",
     "http_status": 200,
     "bytes": 720
   },
@@ -62,6 +119,18 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg",
     "asset_path": "assets/profile/hypesquad-balance.svg",
+    "legacy": true,
+    "legacy_basis": "official",
+    "status": "legacy",
+    "official_obtainable": false,
+    "unofficial_api_obtainable": true,
+    "obtainability": "unofficial-api-only",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means",
+      "https://gist.github.com/8ug8ird/2ea887ce56f78c4e31eba4d3a1bfd113"
+    ],
+    "notes": "Discord removed the official HypeSquad quiz. The house badge can still be assigned through the Discord API endpoint used by the former client flow; this is not an official acquisition method. Community verification: 2026-10-13.",
     "http_status": 200,
     "bytes": 899
   },
@@ -73,6 +142,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/8353d89b529e13365c415aef08d1d1f4.svg",
     "asset_path": "assets/profile/bug-hunter-level-1.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 794
   },
@@ -84,6 +164,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/f599063762165e0d23e8b11b684765a8.svg",
     "asset_path": "assets/profile/bug-hunter-level-2.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1206
   },
@@ -95,6 +186,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/b802e9af134ff492276d94220e36ec5c.svg",
     "asset_path": "assets/profile/early-supporter.svg",
+    "legacy": true,
+    "legacy_basis": "official",
+    "status": "legacy",
+    "official_obtainable": false,
+    "unofficial_api_obtainable": false,
+    "obtainability": "unobtainable",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 6233
   },
@@ -106,6 +208,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/4441e07fe0f46b3cb41b79366236fca6.svg",
     "asset_path": "assets/profile/early-verified-bot-developer.svg",
+    "legacy": true,
+    "legacy_basis": "historical",
+    "status": "legacy",
+    "official_obtainable": false,
+    "unofficial_api_obtainable": false,
+    "obtainability": "unobtainable",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": "No longer issued; treated as historical/legacy, but not listed in Discord's current Legacy Badges section.",
     "http_status": 200,
     "bytes": 375
   },
@@ -117,6 +230,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg",
     "asset_path": "assets/profile/moderator-programs-alumni.svg",
+    "legacy": true,
+    "legacy_basis": "official",
+    "status": "legacy",
+    "official_obtainable": false,
+    "unofficial_api_obtainable": false,
+    "obtainability": "unobtainable",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 483
   },
@@ -128,6 +252,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/26c7a60fb1654315e0be26107bd47470.svg",
     "asset_path": "assets/profile/active-developer.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "removed",
+    "official_obtainable": false,
+    "unofficial_api_obtainable": false,
+    "obtainability": "removed",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support-dev.discord.com/hc/en-us/articles/10113997751447-Active-Developer-Badge"
+    ],
+    "notes": "Decommissioned by Discord in December 2025; previously displayed Active Developer badges were removed from profiles.",
     "http_status": 200,
     "bytes": 678
   },
@@ -139,6 +274,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/f61ddf640d11d9bdfaf9de265eb862edf28986b659e545f293b54adf229433af.svg",
     "asset_path": "assets/profile/discord-nitro.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1567
   },
@@ -150,6 +296,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/498591d63b352256a1bf18061eff9d57.svg",
     "asset_path": "assets/profile/supports-commands.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1387
   },
@@ -161,6 +318,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/8599b8b3d7917b5e7180e898a835f780.svg",
     "asset_path": "assets/profile/uses-automod.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1933
   },
@@ -172,6 +340,17 @@
     "format": "png",
     "cdn_url": "https://cdn.discordapp.com/badge-icons/7d9ae358c8c5e118768335dbe68b4fb8.png",
     "asset_path": "assets/profile/completed-a-quest.png",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 3705
   },
@@ -183,6 +362,17 @@
     "format": "png",
     "cdn_url": "https://cdn.discordapp.com/badge-icons/6de6d34650760ba5551a79732e98ed60.png",
     "asset_path": "assets/profile/legacy-username.png",
+    "legacy": true,
+    "legacy_basis": "official",
+    "status": "legacy",
+    "official_obtainable": false,
+    "unofficial_api_obtainable": false,
+    "obtainability": "unobtainable",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1414
   },
@@ -194,6 +384,17 @@
     "format": "png",
     "cdn_url": "https://cdn.discordapp.com/assets/content/615334270467aa3d5adc86cc67efee89f8380a87b945a96e89ec2eb37c27993d.png",
     "asset_path": "assets/profile/orbs-apprentice.png",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 17678
   },
@@ -205,6 +406,17 @@
     "format": "png",
     "cdn_url": "https://cdn.discordapp.com/badge-icons/d2010c413a8da2208b7e4f35bd8cd4ac.png",
     "asset_path": "assets/profile/app-premium.png",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 996
   },
@@ -216,6 +428,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/dda73966211a0c16533f8fcd9f1f27c27a628ef562927270e79df9b9c5e6cb12.svg",
     "asset_path": "assets/account-age/seed.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 854
   },
@@ -227,6 +450,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/74e1884f930b0d69986f92aeea77d3ff3d3d00c540f386b63e6ebb382d5e927d.svg",
     "asset_path": "assets/account-age/sprout.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 945
   },
@@ -238,6 +472,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/217dab12dcb72d4c95f2863e9dddd5c42003345a001684ea55a736172f32eea1.svg",
     "asset_path": "assets/account-age/bud.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1062
   },
@@ -249,6 +494,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/26b89419a4f562ab31a1a72eac04833aa1026af937f1d53c088ec258df3db84b.svg",
     "asset_path": "assets/account-age/sapling.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 895
   },
@@ -260,6 +516,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/1db184b6d10a61a37dc30efdc74d587560fac5291c8bb329977e93bb5a312602.svg",
     "asset_path": "assets/account-age/blossom.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 991
   },
@@ -271,6 +538,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/6b0f2ed5be272942eeabea3a0289027d164c7b1ce6a76166d1c928a57db762c5.svg",
     "asset_path": "assets/account-age/redwood.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1094
   },
@@ -282,6 +560,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/c095e3e73591843a22dc979d1fcfe3d6cf6841d1f51387d208d19f8bed01deb7.svg",
     "asset_path": "assets/account-age/sequoia.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 852
   },
@@ -293,6 +582,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/867feeff5acd481c80bae557c586718fb5390bbaaa1cbde55fae296a7884e799.svg",
     "asset_path": "assets/account-age/bristlecone.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1631
   },
@@ -304,6 +604,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/a6f4c487be2aa012f41f1fba40e664f914ede9251f4b967d890ab5c065a29fb7.svg",
     "asset_path": "assets/account-age/stromatolite.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1625
   },
@@ -315,6 +626,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/1d8caace0299b12bcc469c35ce927e838abd9c645a22fe7c556f4394e57fa79b.svg",
     "asset_path": "assets/account-age/primordial.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 3500
   },
@@ -326,6 +648,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/c56b451e3bf04181182c2529e9bd3659e569ea80f582858090007f0752401b38.svg",
     "asset_path": "assets/streaming/newcomer.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1019
   },
@@ -337,6 +670,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/2e25ba794f6f371ea0f52eb2d3c8fb2b04094a56f388515e13a9bd6d7949a018.svg",
     "asset_path": "assets/streaming/fledgling.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1019
   },
@@ -348,6 +692,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/4e847b4dca20fbf1c56d3a47cac3c9204f02113c9d5a270ebebdf12909c75848.svg",
     "asset_path": "assets/streaming/breakout.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1019
   },
@@ -359,6 +714,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/27d0e6939f13dcf113243fc9eac642b15e9764ad891e06c5ed78d45a17678582.svg",
     "asset_path": "assets/streaming/standout.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1019
   },
@@ -370,6 +736,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/af681483be2035f14b0f2bfe2e25a8944c97149172938888ca1008edbe037aad.svg",
     "asset_path": "assets/streaming/trendsetter.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1290
   },
@@ -381,6 +758,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/e69a0c86a476c9782ea1d3e7b5ba308eec3d9d6a3eae6ab8af3180f67d16b468.svg",
     "asset_path": "assets/streaming/headliner.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1290
   },
@@ -392,6 +780,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/06b6206db966635cf626651bdb94eacce5a23ab05dc7f600f7d31aa482b2058c.svg",
     "asset_path": "assets/streaming/star.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1290
   },
@@ -403,6 +802,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/1a3b9120ecd64c342083c37980b225d29ebf4544da6ab546c9268f87904c9dfe.svg",
     "asset_path": "assets/streaming/sensation.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1843
   },
@@ -414,6 +824,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/85f714b90ed3ceb1e00e1f2069bf3ebd564962fa940c92540061537a045e54ab.svg",
     "asset_path": "assets/streaming/visionary.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1830
   },
@@ -425,6 +846,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/61331d04b7a9542b38bfa59583360c0b9b93c6496a04f99c0ab37fa1d83ec58a.svg",
     "asset_path": "assets/streaming/phenomenon.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 2594
   },
@@ -436,6 +868,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/b75fcc4dd1c65dfd4169a203e21023453fd6fe853c9b5c1fd839781fda98e80d.svg",
     "asset_path": "assets/game-time/casual.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1095
   },
@@ -447,6 +890,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/f0f32cb2a0003475e443b76a7a2baf454356953ecb84195c7a08c3ce2fd95b70.svg",
     "asset_path": "assets/game-time/recreational.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1461
   },
@@ -458,6 +912,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/e0c82f41bcad94a2a52713800fbef7687d0d2c6a6066b09d5e5876156d086e1a.svg",
     "asset_path": "assets/game-time/dedicated.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1097
   },
@@ -469,6 +934,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/16f2aeb7465c99efce4d67d9333e3ddcf7435d6e60d2f5f93dc0c07bc7c5a69b.svg",
     "asset_path": "assets/game-time/committed.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1467
   },
@@ -480,6 +956,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/ba26e83fa68189b41837184e38706f41c288dd29ffba266035d1a5ad9adbae22.svg",
     "asset_path": "assets/game-time/serious.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1402
   },
@@ -491,6 +978,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/851b194288f1913ece6c8d99976519e48210580d6f42d994f21e37801611ad54.svg",
     "asset_path": "assets/game-time/devoted.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1402
   },
@@ -502,6 +1000,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/8b10f5c0c30abbd521be5afc2e0dd4ec6da18bfbc689f06d93a51d06577cd84a.svg",
     "asset_path": "assets/game-time/seasoned.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1402
   },
@@ -513,6 +1022,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/d705628490898f2cc22d669cf8b415bc03fed1ddaf98a2a8cbd97442a509293c.svg",
     "asset_path": "assets/game-time/ironclad.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1960
   },
@@ -524,6 +1044,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/2bddcbc9f9959dab805eb7196c8112ce9dc68b09766c8193ab499b1870e44ac7.svg",
     "asset_path": "assets/game-time/unshakeable.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 2241
   },
@@ -535,6 +1066,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/457ce4e657f0ced23197891cc3d75b7de29cafa065cdb8cbb81060ac0e63b07f.svg",
     "asset_path": "assets/game-time/eternal.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 2725
   },
@@ -546,6 +1088,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/ed18d5976c01a4ea19f5a13af08f0547582405cbe48b098b0822e352b8e0a822.svg",
     "asset_path": "assets/game-variety/sampler.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1743
   },
@@ -557,6 +1110,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/e450d5279537db06ee47a104af520b884adaa7ffc3ef2627157526bf1c58e840.svg",
     "asset_path": "assets/game-variety/dabbler.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1743
   },
@@ -568,6 +1132,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/158a9d91b8ca9e96d4afeee38cd640fc51483a8196edb9af0c26e44727acafae.svg",
     "asset_path": "assets/game-variety/enthusiast.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1743
   },
@@ -579,6 +1154,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/9e491942070007f64011ae4fc478926b96433698c07621fc43bafdd5efe83912.svg",
     "asset_path": "assets/game-variety/ranger.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1744
   },
@@ -590,6 +1176,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/e25fc55814262150e154ddb1a2b55fc5ed8ed5ba2ff1a22a33d4a41e651e370a.svg",
     "asset_path": "assets/game-variety/explorer.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1743
   },
@@ -601,6 +1198,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/542d5277e0001ea738d5eb57b247dcab9ce6e0c29493d5892203f6258fde55b9.svg",
     "asset_path": "assets/game-variety/adventurer.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1743
   },
@@ -612,6 +1220,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/082e693cb9ce98b81af618978d449409efc6522b061bc0eac6e88a949fd888c6.svg",
     "asset_path": "assets/game-variety/voyager.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1743
   },
@@ -623,6 +1242,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/6fc242e9e8259c471a5e4599cd09af5476e622a572ff235883173913bf506103.svg",
     "asset_path": "assets/game-variety/maverick.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1929
   },
@@ -634,6 +1264,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/be9a4d119b8e0d7fc1df7e5a12081332637cb9c978a90377cb9c930500b2fbe6.svg",
     "asset_path": "assets/game-variety/polymath.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1942
   },
@@ -645,6 +1286,17 @@
     "format": "svg",
     "cdn_url": "https://cdn.discordapp.com/assets/content/fcc34d343451505c642f3397cec2669a2de3a4a410fb968f794b3a1a0dcd1728.svg",
     "asset_path": "assets/game-variety/universalist.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 2189
   },
@@ -656,6 +1308,17 @@
     "format": "png",
     "cdn_url": "https://cdn.discordapp.com/badge-icons/ac305d1b9481f312ce4419e7f8296558.png",
     "asset_path": "assets/gifting/patron.png",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1228
   },
@@ -667,6 +1330,17 @@
     "format": "png",
     "cdn_url": "https://cdn.discordapp.com/badge-icons/8b7792c4f65953d3ff564f23429cb79e.png",
     "asset_path": "assets/gifting/champion.png",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1332
   },
@@ -678,6 +1352,17 @@
     "format": "png",
     "cdn_url": "https://cdn.discordapp.com/badge-icons/3119f5504b2cd09576a323908c7c3517.png",
     "asset_path": "assets/gifting/luminary.png",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1202
   },
@@ -689,6 +1374,17 @@
     "format": "png",
     "cdn_url": "https://cdn.discordapp.com/badge-icons/64f2413c9b9803661322aaad25826b62.png",
     "asset_path": "assets/gifting/icon.png",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 1998
   },
@@ -700,6 +1396,17 @@
     "format": "png",
     "cdn_url": "https://cdn.discordapp.com/badge-icons/77d65b1f210014a11eb1582ee06ab684.png",
     "asset_path": "assets/gifting/hero.png",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 2369
   },
@@ -711,6 +1418,17 @@
     "format": "png",
     "cdn_url": "https://cdn.discordapp.com/badge-icons/7fe346cfc5da1340087d8759a9e7a395.png",
     "asset_path": "assets/gifting/legend.png",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 2430
   },
@@ -722,6 +1440,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/0386191373eb17c272df.svg",
     "asset_path": "assets/nitro/bronze.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 6773
   },
@@ -733,6 +1462,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/9d4d362c62da3c985845.svg",
     "asset_path": "assets/nitro/silver.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 9080
   },
@@ -744,6 +1484,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/8725fe12ada9afa51c1a.svg",
     "asset_path": "assets/nitro/gold.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 10285
   },
@@ -755,6 +1506,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/746689c803e06be87705.svg",
     "asset_path": "assets/nitro/platinum.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 12673
   },
@@ -766,6 +1528,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/f3521e2861ff44a0384d.svg",
     "asset_path": "assets/nitro/diamond.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 19529
   },
@@ -777,6 +1550,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/f2b9b02fb22cc6459922.svg",
     "asset_path": "assets/nitro/emerald.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 19375
   },
@@ -788,6 +1572,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/ecf86e18838013c9d95a.svg",
     "asset_path": "assets/nitro/ruby.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 24560
   },
@@ -799,6 +1594,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/b4fc7a9c37ec2fae36e3.svg",
     "asset_path": "assets/nitro/opal.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 30101
   },
@@ -810,6 +1616,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg",
     "asset_path": "assets/server-boost/server-boost-1.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 278
   },
@@ -821,6 +1638,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/22f99ed6e34eaca48950254c70f8fe8d.svg",
     "asset_path": "assets/server-boost/server-boost-2.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 370
   },
@@ -832,6 +1660,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/4a2618502278029ce88adeea179ed435.svg",
     "asset_path": "assets/server-boost/server-boost-3.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 401
   },
@@ -843,6 +1682,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/fbafa6adb7c49a6a2c3822521ff2af2f.svg",
     "asset_path": "assets/server-boost/server-boost-4.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 708
   },
@@ -854,6 +1704,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/0599f90e32c15b532647163edd72f70a.svg",
     "asset_path": "assets/server-boost/server-boost-5.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 740
   },
@@ -865,6 +1726,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/e07c08cdc72bcc78b69c76d2c7ceb344.svg",
     "asset_path": "assets/server-boost/server-boost-6.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 2393
   },
@@ -876,6 +1748,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/c7f26927db5e7806790f4e968038630a.svg",
     "asset_path": "assets/server-boost/server-boost-7.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 2090
   },
@@ -887,6 +1770,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/c6d88d1d12afe03bdc4ebb747f8d196b.svg",
     "asset_path": "assets/server-boost/server-boost-8.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 2207
   },
@@ -898,6 +1792,17 @@
     "format": "svg",
     "cdn_url": "https://discord.com/assets/d96ed283b74de75692487b7499fb8d09.svg",
     "asset_path": "assets/server-boost/server-boost-9.svg",
+    "legacy": false,
+    "legacy_basis": null,
+    "status": "current",
+    "official_obtainable": true,
+    "unofficial_api_obtainable": false,
+    "obtainability": "official",
+    "status_checked": "2026-11-02",
+    "status_sources": [
+      "https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means"
+    ],
+    "notes": null,
     "http_status": 200,
     "bytes": 3123
   }
