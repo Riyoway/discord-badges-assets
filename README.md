@@ -33,8 +33,93 @@ A searchable archive of **Discord badges, profile badge assets, official CDN URL
 | Gifting | 6 |
 | Nitro Subscription Tiers | 8 |
 | Server Boost Tiers | 9 |
+| Guild Tag preset SVGs | 41 |
 
-**Total: 82 badge assets.**
+**Total: 123 assets (82 profile/badge assets + 41 Guild Tag preset SVGs).**
+
+<!-- guild-tags:start -->
+## Guild Tag preset icons
+
+Discord currently defines **41 Guild Tag badge kinds** in the client. This archive contains their SVG vector renders: **10 free Server Tags icons, 20 Badge Pack icons, and 11 legacy Guild experiment icons**.
+
+> Guild Tag badges served for a specific server use Discord's `guild-tag-badges/{guild_id}/{badge_hash}` CDN route, whose documented image formats are raster (PNG/JPEG/WebP), not SVG. The files below are the preset/client vector assets, cross-checked against two public Discord asset archives and the current client enum.
+
+### Free Server Tags icons
+
+| Preview | Name | Kind ID | Archive ID | Colors |
+| --- | --- | ---: | ---: | ---: |
+| <img src="assets/guild-tags/free/compass.svg" width="36" alt="Compass"> | **Compass** | `9` | `12` | 2 |
+| <img src="assets/guild-tags/free/fire.svg" width="36" alt="Fire"> | **Fire** | `8` | `13` | 1 |
+| <img src="assets/guild-tags/free/heart.svg" width="36" alt="Heart"> | **Heart** | `7` | `14` | 1 |
+| <img src="assets/guild-tags/free/leaf.svg" width="36" alt="Leaf"> | **Leaf** | `6` | `15` | 1 |
+| <img src="assets/guild-tags/free/lightning.svg" width="36" alt="Lightning"> | **Lightning** | `5` | `16` | 1 |
+| <img src="assets/guild-tags/free/moon.svg" width="36" alt="Moon"> | **Moon** | `4` | `17` | 1 |
+| <img src="assets/guild-tags/free/toadstool.svg" width="36" alt="Toadstool"> | **Toadstool** | `3` | `18` | 2 |
+| <img src="assets/guild-tags/free/skull.svg" width="36" alt="Skull"> | **Skull** | `2` | `19` | 1 |
+| <img src="assets/guild-tags/free/water-drop.svg" width="36" alt="Water Drop"> | **Water Drop** | `1` | `20` | 1 |
+| <img src="assets/guild-tags/free/sword.svg" width="36" alt="Sword"> | **Sword** | `0` | `21` | 2 |
+
+### Badge Pack — Pets
+
+| Preview | Name | Kind ID | Archive ID | Colors |
+| --- | --- | ---: | ---: | ---: |
+| <img src="assets/guild-tags/packs/pets/bunny.svg" width="36" alt="Bunny"> | **Bunny** | `21` | `22` | 1 |
+| <img src="assets/guild-tags/packs/pets/dog.svg" width="36" alt="Dog"> | **Dog** | `22` | `23` | 2 |
+| <img src="assets/guild-tags/packs/pets/frog.svg" width="36" alt="Frog"> | **Frog** | `23` | `24` | 2 |
+| <img src="assets/guild-tags/packs/pets/goat.svg" width="36" alt="Goat"> | **Goat** | `24` | `25` | 1 |
+| <img src="assets/guild-tags/packs/pets/cat.svg" width="36" alt="Cat"> | **Cat** | `25` | `26` | 1 |
+
+### Badge Pack — Flex
+
+| Preview | Name | Kind ID | Archive ID | Colors |
+| --- | --- | ---: | ---: | ---: |
+| <img src="assets/guild-tags/packs/flex/diamond.svg" width="36" alt="Diamond"> | **Diamond** | `26` | `27` | 1 |
+| <img src="assets/guild-tags/packs/flex/crown.svg" width="36" alt="Crown"> | **Crown** | `27` | `28` | 2 |
+| <img src="assets/guild-tags/packs/flex/trophy.svg" width="36" alt="Trophy"> | **Trophy** | `28` | `29` | 1 |
+| <img src="assets/guild-tags/packs/flex/money-bag.svg" width="36" alt="Money Bag"> | **Money Bag** | `29` | `30` | 1 |
+| <img src="assets/guild-tags/packs/flex/dollar-sign.svg" width="36" alt="Dollar Sign"> | **Dollar Sign** | `30` | `31` | 1 |
+
+### Badge Pack — Plant
+
+| Preview | Name | Kind ID | Archive ID | Colors |
+| --- | --- | ---: | ---: | ---: |
+| <img src="assets/guild-tags/packs/plant/clover.svg" width="36" alt="Clover"> | **Clover** | `31` | `32` | 1 |
+| <img src="assets/guild-tags/packs/plant/blossom.svg" width="36" alt="Blossom"> | **Blossom** | `32` | `33` | 1 |
+| <img src="assets/guild-tags/packs/plant/potted-plant.svg" width="36" alt="Potted Plant"> | **Potted Plant** | `33` | `34` | 2 |
+| <img src="assets/guild-tags/packs/plant/maple.svg" width="36" alt="Maple"> | **Maple** | `34` | `35` | 1 |
+| <img src="assets/guild-tags/packs/plant/wilted-flower.svg" width="36" alt="Wilted Flower"> | **Wilted Flower** | `35` | `36` | 2 |
+
+### Badge Pack — Creepy Crawlies
+
+| Preview | Name | Kind ID | Archive ID | Colors |
+| --- | --- | ---: | ---: | ---: |
+| <img src="assets/guild-tags/packs/creepy-crawlies/butterfly.svg" width="36" alt="Butterfly"> | **Butterfly** | `36` | `37` | 2 |
+| <img src="assets/guild-tags/packs/creepy-crawlies/snail.svg" width="36" alt="Snail"> | **Snail** | `37` | `38` | 2 |
+| <img src="assets/guild-tags/packs/creepy-crawlies/caterpillar.svg" width="36" alt="Caterpillar"> | **Caterpillar** | `38` | `39` | 2 |
+| <img src="assets/guild-tags/packs/creepy-crawlies/spider.svg" width="36" alt="Spider"> | **Spider** | `39` | `40` | 2 |
+| <img src="assets/guild-tags/packs/creepy-crawlies/bee.svg" width="36" alt="Bee"> | **Bee** | `40` | `41` | 1 |
+
+### Legacy Guild experiment icons
+
+These 11 icons were part of the earlier Guild Tags experiment and are not in the current free/purchasable icon sets.
+
+| Preview | Name | Kind ID | Archive ID | Colors |
+| --- | --- | ---: | ---: | ---: |
+| <img src="assets/guild-tags/legacy/wind.svg" width="36" alt="Wind"> | **Wind** | `20` | `1` | 2 |
+| <img src="assets/guild-tags/legacy/sun.svg" width="36" alt="Sun"> | **Sun** | `19` | `2` | 2 |
+| <img src="assets/guild-tags/legacy/sound.svg" width="36" alt="Sound"> | **Sound** | `18` | `3` | 2 |
+| <img src="assets/guild-tags/legacy/snow.svg" width="36" alt="Snow"> | **Snow** | `17` | `4` | 2 |
+| <img src="assets/guild-tags/legacy/smoke.svg" width="36" alt="Smoke"> | **Smoke** | `16` | `5` | 2 |
+| <img src="assets/guild-tags/legacy/psychic.svg" width="36" alt="Psychic"> | **Psychic** | `15` | `6` | 2 |
+| <img src="assets/guild-tags/legacy/lava.svg" width="36" alt="Lava"> | **Lava** | `14` | `7` | 2 |
+| <img src="assets/guild-tags/legacy/gem.svg" width="36" alt="Gem"> | **Gem** | `13` | `8` | 2 |
+| <img src="assets/guild-tags/legacy/force.svg" width="36" alt="Force"> | **Force** | `12` | `9` | 2 |
+| <img src="assets/guild-tags/legacy/flower.svg" width="36" alt="Flower"> | **Flower** | `11` | `10` | 2 |
+| <img src="assets/guild-tags/legacy/crosshairs.svg" width="36" alt="Crosshairs"> | **Crosshairs** | `10` | `11` | 2 |
+
+Metadata, hashes, source mirrors and client enum IDs are in [`data/guild-tags.json`](data/guild-tags.json).
+
+<!-- guild-tags:end -->
 
 ## Profile, Legacy & App Badges
 
