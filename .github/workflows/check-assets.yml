@@ -18,5 +18,7 @@ jobs:
           python-version: "3.x"
       - name: Validate Discord CDN assets
         run: python scripts/sync_assets.py
+      - name: Validate Guild Tag SVG assets
+        run: python scripts/sync_guild_tags.py
       - name: Ensure generated files are unchanged
         run: git diff --exit-code
