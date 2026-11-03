@@ -2,8 +2,6 @@ name: Sync Guild Tag SVGs
 
 on:
   workflow_dispatch:
-  issues:
-    types: [opened]
   push:
     paths:
       - "scripts/sync_guild_tags.py"
@@ -16,7 +14,6 @@ permissions:
 
 jobs:
   sync:
-    if: github.event_name != 'issues' || github.event.issue.title == '[internal] sync guild tags'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
